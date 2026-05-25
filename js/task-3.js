@@ -13,7 +13,7 @@ class StringBuilder {
     this.#value = str + this.#value
   }
   padBoth(str) {
-    this.#value = + this.#value + str
+    this.#value = str + this.#value + str
   }
 }
 const builder = new StringBuilder(".");
